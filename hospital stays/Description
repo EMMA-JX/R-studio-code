@@ -1,8 +1,0 @@
-(1) Save the data to a CSV file and read into R for analysis. 
-(2) Make a histogram of the duration of days of hospital stays.  Use a width of 1 day. 
-(3) Find the mean, median, standard deviation, first and third quartiles, minimum and maximum of the durations of hospital stay in the sample.  
-- What is the best single number summary of the spread of the distribution? 
- (4) Assume that the literature on this topic suggests that the distribution of days of hospital stay are normally distributed with a mean of 5 and a standard deviation of 
- 3.  Use R to determine the probabilities below based on the normal distribution:
-(a) What percentage of patients are in the hospital for less than 10 days? 
-(a) What percentage of patients are in the hospital between 3 and 10 days? 

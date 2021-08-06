@@ -1,0 +1,54 @@
+Bachelor_Degree_Majors from https://www.kaggle.com/datasets 
+“This dataset contains information on the number of students that majored in different topics of study at universities in the United States in 2019 and is broken down by age group, sex, and state.”
+
+
+I wanted to know the relationship between gender and bachelor’s degree, the relationship between gender and major choice, the relationship between age and bachelor’s degree, and the relationship between age and major choice. Even inside this data set, there is information about states, and I can explore what majors are preferred by people in each state. This dataset has too much information for me to analyze.
+
+Preparing the data
+I downloaded the data set on my computer and opened it in excel. The purpose is to check if there are any gaps or missing data in it.
+So, I saved this data set on my computer and opened it with RStudio.
+Then, I use
+#Validation
+any(is.na(degree))
+Make sure again that there is no n/a inside. 
+
+ 
+Analysis on categorical variable
+1.	Percentage of male and female in all state over the age of 25 with a bachelor's degree in 2019
+ 
+
+
+
+male and female in each major choice
+
+
+ 
+
+
+
+2.	Mean，mini, max of the number of people above 25 with a bachelor's degree, within all states.
+ 
+
+3.	In mosaicplot compare New York State and California, choose Science and Engineering major and Business major as age above 25. 
+ 
+random samples
+
+ 
+
+
+Compare their means and sd, 
+the means of the population and the means of sample mean distributions are close. 
+As the number of sample size increases, the standard deviation of the 
+sample mean distribution decreases
+ 
+
+sampling methods
+ 
+
+The first one is Srswr, the second one is systematic sampling and the third one is stratified.            
+
+I did three sample screens using three methods and I found that because of the method of systematic and Stratified, the proportion of the selected sexes is very close to the original data, therefore, the conclusion should be very similar to the conclusion with all the data
+
+ 
+
+ 

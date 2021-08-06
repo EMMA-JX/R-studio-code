@@ -1,0 +1,6 @@
+(1) To get a sense of the data, generate a scatterplot (using an appropriate window, label the axes, and title the graph).
+(2) Calculate the correlation coefficient. 
+(3) Find the equation of the least squares regression equation, and write out the equation.  
+(4) What is the estimate for  ?  
+(5) Calculate the ANOVA table and the table which gives the standard error of  .  
+Formally test the hypothesis that  = 0 using either the  -test or the  -test at the  = 0.10 level. 
